@@ -4,7 +4,7 @@ WORKDIR /app
 # Copy everything else and build
 COPY . ./
 
-RUN cd src/IceWeightService/
+RUN cd src/FragolaPayGround/
 RUN dotnet restore
 
 RUN dotnet publish -c Release -o out
