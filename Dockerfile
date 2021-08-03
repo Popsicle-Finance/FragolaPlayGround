@@ -4,7 +4,7 @@ WORKDIR /app
 # Copy everything else and build
 COPY . ./
 
-RUN cd src/FragolaPayGround/
+RUN cd src/FragolaPlayGround/
 RUN dotnet restore
 
 RUN dotnet publish -c Release -o out
